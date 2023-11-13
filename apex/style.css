@@ -1,0 +1,113 @@
+
+.header{
+   
+    background-image: url('./img31.jpeg');
+    height: 300px;
+    width: 100%;
+}
+
+.head img{
+    height: 50px;
+    width: 80px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.head{
+   
+    display: flex;
+    text-align: center;
+    
+}
+
+.head a{
+    display: flex;
+    padding: 3px;
+    margin-top:20px ;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.6px;
+    color:white;
+}
+
+.head i{
+    padding: 0px;
+    margin-top:24px ;
+    margin-left: 35px;
+    text-decoration: none;
+    color: aliceblue;
+    
+    
+
+}
+
+.head:hover{
+    
+    color: black;
+    background-color: rgba(240, 248, 255, 0.785);
+    
+    
+
+}
+
+a:hover{
+    color: black;
+    border-bottom-style: 1.5px solid black;
+    padding: 2px;
+}
+
+i:hover{
+    color: black;
+}
+
+.med{
+   color: aliceblue;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+
+.med h2{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size:20px;
+
+}
+
+.med h1{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+.butt{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    left: 500px;
+    margin-bottom: 200px;
+}
+
+
+button{
+    position: relative;
+    background-color: transparent;
+    width: 150px;
+    border: none;
+    border: 1px solid white;
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 5px;
+    bottom: 80px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
